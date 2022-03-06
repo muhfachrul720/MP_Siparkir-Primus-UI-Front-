@@ -1,0 +1,111 @@
+     /* Font */
+    @font-face {
+        font-family: 'bebas_neue';
+        src: url(../font/BebasNeue-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: 'jakarta_plus';
+        src: url(../font/PlusJakartaText-Regular.otf);
+    }
+    /* Body */
+   body,   
+    hr.fancy-line:after {
+        background: #177982;
+    }
+
+    * {
+        color:white;
+    }
+
+    /* Park */
+    .cst-card {
+        background-color:#7AABAF;
+        margin:0px 5px;
+        padding:20px;
+    }
+
+    .number-parking {
+        font-size:202px;
+        line-height: 1.7;
+        font-weight: bold;
+        font-family: 'bebas_neue';
+        letter-spacing: 6px;
+    }
+
+    .park-spot-container {
+        height: 490px;
+        overflow-y: scroll;
+        width:40%;
+        border-top-right-radius: 10px; 
+        border-bottom-right-radius: 10px;
+    }
+
+    .park-spot {
+        width:50px;
+        height:50px;
+        border:solid 1px #FFFFFF;
+        margin:0px 10px;
+        border-radius: 10px;
+    }
+
+    .park-spot-row {
+        width: 100%;
+        display:flex;
+    }
+
+    .park-spot-active {
+        background-color: #FFFFFF;
+    }
+
+    /* Text Font */
+    .text-title {
+        font-size:24px !important;
+        letter-spacing: 3px;
+        font-family: 'bebas_neue';
+        font-weight: bold;
+    }
+
+    .sub-title {
+        font-size: 18px;
+        font-family: 'jakarta_plus' !important;
+    }
+
+    .paragraph {
+        font-size: 15px;
+        text-align: justify;
+        font-weight: 100;
+    }
+
+    .paragraph, ul li {
+        font-family: 'jakarta_plus';
+    }
+
+    /* log parkir */
+    .log-parkir-container {
+        padding:10px 15px;
+    }
+
+    .log-parkir-container ul{
+        padding:0;
+        margin:0;
+        overflow-y: scroll;
+        height:150px;
+    }
+
+    .log-parkir-container ul li {
+        list-style-type: none;
+        margin:4px 0;
+        font-size: 14px;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+    }
+    /* Optional: show position indicator in red */
+    ::-webkit-scrollbar-thumb {
+        background: #FF0000;
+    }
+    
